@@ -1,6 +1,6 @@
 public class Enki implements Fabrik {
 
-  String name;
+  private String name;
 
   public Enki(String name) {
     super();

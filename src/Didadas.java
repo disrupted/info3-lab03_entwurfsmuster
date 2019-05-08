@@ -1,6 +1,6 @@
 public class Didadas implements Fabrik {
 
-  String name;
+  private String name;
 
   public Didadas(String name) {
     super();

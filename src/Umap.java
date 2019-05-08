@@ -1,6 +1,6 @@
 public class Umap implements Fabrik {
 
-  String name;
+  private String name;
 
   public Umap(String name) {
     super();
