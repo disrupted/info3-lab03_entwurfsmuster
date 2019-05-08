@@ -1,4 +1,4 @@
-public class Sportschuh {
+public class Sportschuh implements Schuh {
 
   String name;
 

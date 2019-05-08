@@ -1,4 +1,5 @@
 public interface Fabrik {
+  String name = "";
 //  public Fabrik() {
 //
 //  }
