@@ -5,21 +5,12 @@ public class Umap implements Fabrik {
   public Umap(String name) {
     super();
     this.name = name;
-    erzeugeSportschuh();
-    erzeugeWanderschuh();
-    erzeugeStiefel();
+    createSchuh();
   }
 
-  public void erzeugeSportschuh() {
-    Sportschuh umapSportschuh = new Sportschuh(name + "Sportschuh");
-  }
-
-  public void erzeugeWanderschuh() {
-    Wanderschuh umapWanderschuh = new Wanderschuh(name + "Wanderschuh");
-  }
-
-  public void erzeugeStiefel() {
-    Stiefel umapStiefel = new Stiefel(name + "Stiefel");
-
+  public void createSchuh() {
+    Schuh umapSportschuh = new Sportschuh("Umap");
+    Schuh umapWanderschuh = new Wanderschuh("Umap");
+    Schuh umapStiefel = new Stiefel("Umap");
   }
 }

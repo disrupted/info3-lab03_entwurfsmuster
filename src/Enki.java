@@ -5,20 +5,12 @@ public class Enki implements Fabrik {
   public Enki(String name) {
     super();
     this.name = name;
-    erzeugeSportschuh();
-    erzeugeWanderschuh();
-    erzeugeStiefel();
+    createSchuh();
   }
 
-  public void erzeugeSportschuh() {
-    Sportschuh enkiSportschuh = new Sportschuh(name + "Sportschuh");
-  }
-
-  public void erzeugeWanderschuh() {
-    Wanderschuh enkiWanderschuh = new Wanderschuh(name + "Wanderschuh");
-  }
-
-  public void erzeugeStiefel() {
-    Stiefel enkiStiefel = new Stiefel(name + "Stiefel");
+  public void createSchuh() {
+    Schuh enkiSportschuh = new Sportschuh("Enki");
+    Schuh enkiWanderschuh = new Wanderschuh("Enki");
+    Schuh enkiStiefel = new Stiefel("Enki");
   }
 }
