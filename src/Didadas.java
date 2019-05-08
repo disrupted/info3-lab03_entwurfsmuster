@@ -9,8 +9,8 @@ public class Didadas implements Fabrik {
   }
 
   public void createSchuh() {
-    Schuh didadasSportschuh = new Sportschuh("Didadas");
-    Schuh didadasWanderschuh = new Wanderschuh("Didadas");
-    Schuh didadasStiefel = new Stiefel("Didadas");
+    Schuh didadasSportschuh = new Sportschuh(this.name);
+    Schuh didadasWanderschuh = new Wanderschuh(this.name);
+    Schuh didadasStiefel = new Stiefel(this.name);
   }
 }

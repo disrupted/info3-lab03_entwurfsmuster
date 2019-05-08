@@ -9,8 +9,8 @@ public class Enki implements Fabrik {
   }
 
   public void createSchuh() {
-    Schuh enkiSportschuh = new Sportschuh("Enki");
-    Schuh enkiWanderschuh = new Wanderschuh("Enki");
-    Schuh enkiStiefel = new Stiefel("Enki");
+    Schuh enkiSportschuh = new Sportschuh(this.name);
+    Schuh enkiWanderschuh = new Wanderschuh(this.name);
+    Schuh enkiStiefel = new Stiefel(this.name);
   }
 }

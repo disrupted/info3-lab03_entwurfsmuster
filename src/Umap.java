@@ -9,8 +9,8 @@ public class Umap implements Fabrik {
   }
 
   public void createSchuh() {
-    Schuh umapSportschuh = new Sportschuh("Umap");
-    Schuh umapWanderschuh = new Wanderschuh("Umap");
-    Schuh umapStiefel = new Stiefel("Umap");
+    Schuh umapSportschuh = new Sportschuh(this.name);
+    Schuh umapWanderschuh = new Wanderschuh(this.name);
+    Schuh umapStiefel = new Stiefel(this.name);
   }
 }
